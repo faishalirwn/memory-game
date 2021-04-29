@@ -42,24 +42,42 @@ const CARDS = [
   },
   {
     img: "https://i.scdn.co/image/d40da1cb80895eb597687e6e3659045575e53503",
-    name: "Zutomayo",
+    name: "ZUTOMAYO",
   },
   {
     img: "https://i.scdn.co/image/383c564660d934d8f3c4985a50791ad85f155e36",
     name: "Mamang Kenshi",
+  },
+  {
+    img: "https://i.scdn.co/image/4362f5320882e279cc2269797f8a87ea4a93b2ca",
+    name: "Higedan",
+  },
+  {
+    img: "https://i.scdn.co/image/ab6761670000ecd46a8d510e910a11d1f3b394d4",
+    name: "RADWIMPS",
+  },
+  {
+    img: "https://i.scdn.co/image/4eeb44227295a14c5020119831a43ce8a920a4d7",
+    name: "Miki Matsubara",
+  },
+  {
+    img:
+      "https://c-sf.smule.com/rs-s-sf-2/arr/72/a7/f758b550-f358-4d6a-b346-4bb1bd046536_256.jpg",
+    name: "Mariya Takeuchi",
+  },
+  {
+    img: "https://i.scdn.co/image/9bfe4b793edc2abec754957cf46198c5b4fa4ae2",
+    name: "ALI",
   },
 ];
 
 function App() {
   const [score, setScore] = useState({ current: 0, best: 0 });
   const [clickedCards, setClickedCards] = useState([]);
-  const [lose, setLose] = useState(false);
 
   const handleCardClick = (cardName) => {
     // Clicked the same card
     if (clickedCards.includes(cardName)) {
-      setLose(true);
-
       if (score.current > score.best) {
         setScore({ current: 0, best: score.current });
       } else {
