@@ -101,7 +101,13 @@ function App() {
         handleCardClick={(cardIndex) => handleCardClick(cardIndex)}
       />
       <footer>
-        <a href="https://github.com/faishalirwn/memory-game">Source Code</a>
+        <a
+          href="https://github.com/faishalirwn/memory-game"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Source Code
+        </a>
       </footer>
     </div>
   );
