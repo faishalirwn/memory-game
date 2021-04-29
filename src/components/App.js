@@ -93,7 +93,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Memory Card Game</h1>
+      <h1>Memory Game</h1>
       <p>Don't click on the same card</p>
       <Score score={score.current} bestScore={score.best} />
       <CardList

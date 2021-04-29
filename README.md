@@ -1,10 +1,10 @@
-# 🎴 Memory Card Game
+# 🎴 Memory Game
 
-Memory Card Game built using Create React App.
+Memory Game built using Create React App.
 
-### [View the demo](https://faishalirwn.github.io/memory-card-game/)
+### [View the demo](https://faishalirwn.github.io/memory-game/)
 
-![Screenshot](./memory-card-game.png)
+![Screenshot](./memory-game.png)
 
 ## Purpose
 
