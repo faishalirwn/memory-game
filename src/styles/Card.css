@@ -3,9 +3,16 @@
   cursor: pointer;
 }
 
-.card img {
-  max-width: 175px;
-  max-height: 175px;
+/* .card img {
+  width: 175px;
+  height: 175px;
+  border-radius: 5px;
+} */
+.card-img {
+  background-size: cover;
+  width: 175px;
+  height: 175px;
+  border-radius: 5px;
 }
 
 .card p {
