@@ -1,6 +1,6 @@
 import CardList from "./CardList";
 import Score from "./Score";
-import "./styles/App.css";
+import "../styles/App.css";
 
 const CARDS = [
   {

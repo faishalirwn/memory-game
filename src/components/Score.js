@@ -1,4 +1,4 @@
-import "./styles/Score.css";
+import "../styles/Score.css";
 
 function Score(props) {
   return (

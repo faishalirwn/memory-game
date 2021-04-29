@@ -1,4 +1,4 @@
-import "./styles/CardList.css";
+import "../styles/CardList.css";
 import Card from "./Card";
 
 function CardList(props) {
